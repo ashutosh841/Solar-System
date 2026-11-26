@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+background-image: url("star.jpg");
+min-height: 100vh;
+background-size: cover;
+  display: flex;
+    justify-content: center;
+ align-items: center;
+}
+
+#Planet{
+    height: 900px;
+    width: 900px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+    animation-name: abc;
+    animation-duration:20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+#Planet img{
+    animation: spin 5s linear infinite;
+}
+
+@keyframes abc{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+#Neptune{
+    height: 840px;
+    width: 840px;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Neptune>img{
+    position: absolute;
+    top: 30px;
+    right: 200px;
+    transform: rotate(50%);
+}
+
+#Uranus{
+    height: 755px;
+    width: 755px;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Uranus>img{
+    position: absolute;
+    left: 400px;
+    bottom: 30px;
+}
+
+#Saturn{
+    height: 660px;
+    width: 660px;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Saturn>img{
+    position: absolute;
+    left: 40px;
+    bottom: 350px;
+}
+
+#Jupiter{
+    height: 570px;
+    width: 570px;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Jupiter>img{
+    position: absolute;
+    right: 85px;
+    bottom: 450px;
+} 
+
+#Mars{
+    height: 480px;
+    width: 480px;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Mars>img{
+    position: absolute;
+    right: 300px;
+    bottom: 200px;
+}
+
+#Earth{
+    height: 390px;
+    width: 390px;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Earth>img{
+    position: absolute;
+    left:300px;
+    top: 230px;
+} 
+
+#Venus{
+    height: 310px;
+    width: 310px;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Venus>img{
+    position: absolute;
+   right: 260px;
+    top: 450px;
+} 
+#Mercury{
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Mercury>img{
+    position: absolute;
+    left: 350px;
+    bottom: 330px;
+} 
